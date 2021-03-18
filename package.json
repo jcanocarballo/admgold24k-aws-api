@@ -1,0 +1,23 @@
+{
+  "name": "sgp-add-empleados",
+  "version": "1.0.0",
+  "description": "Lambda para registro de nuevos empleados",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "jcanocarballo@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "jsonschema": "^1.2.4",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.867.0",
+    "serverless-bundle": "^4.2.2",
+    "serverless-dotenv-plugin": "^3.8.1",
+    "serverless-offline": "3.20.2",
+    "serverless-plugin-include-dependencies": "^3.2.1",
+    "serverless-pseudo-parameters": "^2.4.0"
+  }
+}
