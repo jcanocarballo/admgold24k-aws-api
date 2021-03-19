@@ -262,6 +262,9 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
+# Env
+.env
+
 # JetBrains Rider
 .idea/
 *.sln.iml
